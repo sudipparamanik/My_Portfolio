@@ -13,6 +13,24 @@ export const portfolio = {
     languages: ["Java", "Python", "JavaScript", "TypeScript"]
   },
   projects: [
+      {
+      title: "AWS Cost Anomaly Detector",
+      label: "AWS / TERRAFORM / DEVOPS",
+      description: "An automated AWS cost-monitoring solution built with Terraform. It uses AWS Lambda and EventBridge to check daily spending through AWS Cost Explorer and sends email alerts through Amazon SNS when costs exceed a configurable threshold.",
+      tech: [
+        "AWS",
+        "Terraform",
+        "AWS Lambda",
+        "Python",
+        "Amazon EventBridge",
+        "AWS Cost Explorer",
+        "Amazon SNS",
+        "IAM",
+        "CloudWatch"
+      ],
+      github: "https://github.com/sudipparamanik/Terraform-Projects",
+      demo: "#"
+    },
     {
       title: "Real-Time Chat Application",
       label: "SERVERLESS / AWS",
