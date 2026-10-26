@@ -14,6 +14,25 @@ export const portfolio = {
   },
   projects: [
       {
+      title: "CloudDeploy — ECS Fargate Deployment Platform",
+      label: "AWS / DEVOPS / CI/CD",
+      description: "A containerized application deployment platform designed around AWS ECS Fargate and Terraform. The architecture includes a VPC, public and private subnets, an Application Load Balancer, Amazon ECR, IAM, AWS Secrets Manager, and CloudWatch. GitHub Actions automates Docker image builds and deployments, with health checks and deployment rollback capabilities.",
+      tech: [
+        "AWS ECS Fargate",
+        "Terraform",
+        "Docker",
+        "Amazon ECR",
+        "VPC",
+        "Application Load Balancer",
+        "GitHub Actions",
+        "IAM",
+        "Secrets Manager",
+        "CloudWatch"
+      ],
+      github: "https://github.com/sudipparamanik",
+      demo: "#"
+    },
+      {
       title: "AWS Cost Anomaly Detector",
       label: "AWS / TERRAFORM / DEVOPS",
       description: "An automated AWS cost-monitoring solution built with Terraform. It uses AWS Lambda and EventBridge to check daily spending through AWS Cost Explorer and sends email alerts through Amazon SNS when costs exceed a configurable threshold.",
