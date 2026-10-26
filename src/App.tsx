@@ -143,16 +143,57 @@ export function App() {
 
         <section className="ticker"><div>{["AWS CLOUD", "JAVA", "TERRAFORM", "DOCKER", "SERVERLESS", "LINUX", "GIT & CI/CD"].map(x => <span key={x}>{x}<i>✦</i></span>)}</div></section>
 
-        <section id="about" className="section about-section">
-          <motion.div className="section-grid" variants={reveal} initial="hidden" whileInView="show" viewport={{ once: true, amount: .2 }}>
-            <div><p className="section-kicker">01 / ABOUT ME</p><h2>Cloud-minded.<br/><span>Engineering-focused.</span></h2></div>
-            <div className="about-copy">
-              <p>I'm a B.Tech Computer Science & Engineering student at Mallabhum Institute of Technology, West Bengal. I enjoy turning technical concepts into practical cloud projects and learning how systems are deployed, secured, monitored, and scaled.</p>
-              <div className="about-facts"><div><b>2023—2027</b><small>B.Tech CSE</small></div><div><b>AWS + IaC</b><small>Core focus</small></div><div><b>Build & learn</b><small>Every day</small></div></div>
-              <button className="text-link" onClick={() => setProfileOpen(true)}>View profile photo <ZoomIn size={15}/></button>
-            </div>
-          </motion.div>
-        </section>
+       <section id="about" className="section about-section">
+  <motion.div
+    className="section-grid"
+    variants={reveal}
+    initial="hidden"
+    whileInView="show"
+    viewport={{ once: true, amount: 0.2 }}
+  >
+    <div className="about-profile">
+      <img
+        className="about-profile-image"
+        src={portfolio.profileImage}
+        alt="Sudip Paramanik"
+      />
+    </div>
+
+    <div className="about-heading">
+      <p className="section-kicker">01 / ABOUT ME</p>
+      <h2>
+        Cloud-minded.
+        <br />
+        <span>Engineering-focused.</span>
+      </h2>
+    </div>
+
+    <div className="about-copy">
+      <p>
+        I'm a B.Tech Computer Science & Engineering student at
+        Mallabhum Institute of Technology, West Bengal. I enjoy
+        turning technical concepts into practical cloud projects
+        and learning how systems are deployed, secured, monitored,
+        and scaled.
+      </p>
+
+      <div className="about-facts">
+        <div>
+          <b>2023—2027</b>
+          <small>B.Tech CSE</small>
+        </div>
+        <div>
+          <b>AWS + IaC</b>
+          <small>Core focus</small>
+        </div>
+        <div>
+          <b>Build & learn</b>
+          <small>Every day</small>
+        </div>
+      </div>
+    </div>
+  </motion.div>
+</section>
 
         <section id="skills" className="section section-tinted grid-bg">
           <div className="section-heading"><div><p className="section-kicker">02 / TOOLKIT</p><h2>Technical <span>arsenal.</span></h2></div><p>Tools and technologies I use to build, automate, and understand cloud systems.</p></div>
