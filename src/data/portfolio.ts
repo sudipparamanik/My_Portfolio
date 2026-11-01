@@ -73,7 +73,7 @@ export const portfolio = {
         "Assigned real-world project, completed",
         "Internship completion certificate, ID EWB/INT/2026/2163"
       ],
-      document: "/certificates/ewb-aws-internship-certificate.pdf"
+      document: "/certificates/ewb-aws-internship-offer-letter.pdf"
     },
     
   ],
