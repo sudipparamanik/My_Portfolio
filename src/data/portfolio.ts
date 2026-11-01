@@ -65,20 +65,21 @@ export const portfolio = {
       document: "/certificates/ibm-skillsbuild-internship-offer.pdf"
     }
      ,{
-      company: "EWB Edu Tech Private Limited (EWB Courses)",
-      role: "AWS Cloud Computing Intern",
-      logoMain: "EWB",
-      logoSub: "Courses",
-      period: "October 2026",
-      type: "1-MONTH INTERNSHIP",
-      description: "Completed a 1-month virtual AWS internship and the assigned real-world project. Received the internship completion certificate on 31 October 2026.",
-      highlights: [
-        "Core AWS cloud computing",
-        "Assigned real-world project, completed",
-        "Internship completion certificate, ID EWB/INT/2026/2163"
-      ],
-      
-    },
+  company: "EWB Edu Tech Private Limited (EWB Courses)",
+  role: "AWS Cloud Intern",
+  logoMain: "EWB",
+  logoSub: "Courses",
+  period: "September to October 2026",
+  type: "4-WEEK INTERNSHIP",
+  description: "Completed a 4-week virtual AWS internship with mentor-led sessions, weekly assessments and assigned tasks. Finished the final mini project and received the internship completion certificate on 31 October 2026.",
+  highlights: [
+    "Mentor-led sessions on core AWS cloud computing",
+    "Weekly assessments and assigned tasks",
+    "Final mini project, completed",
+    "Internship completion certificate, ID EWB/INT/2026/2163"
+  ],
+  document: "/certificates/ewb-aws-internship-offer-letter.pdf"
+}
     
   ],
   certificates: [
