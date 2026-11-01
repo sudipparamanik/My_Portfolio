@@ -50,6 +50,8 @@ export const portfolio = {
     {
       company: "Edunet Foundation × IBM SkillsBuild",
       role: "AI & Cloud Technologies Intern",
+      logoMain: "IBM",
+      logoSub: "SkillsBuild",
       period: "15 May 2026 — 15 June 2026",
       type: "4-WEEK INTERNSHIP",
       description: "Selected for a four-week internship leveraging IBM SkillsBuild and IBM Cloud Platform in Emerging Technologies (AI & Cloud). The program combined guided learning, mentor sessions, cloud experiments and a final project evaluation.",
@@ -65,6 +67,8 @@ export const portfolio = {
      ,{
       company: "EWB Edu Tech Private Limited (EWB Courses)",
       role: "AWS Cloud Computing Intern",
+      logoMain: "EWB",
+      logoSub: "Courses",
       period: "October 2026",
       type: "1-MONTH INTERNSHIP",
       description: "Completed a 1-month virtual AWS internship and the assigned real-world project. Received the internship completion certificate on 31 October 2026.",
